@@ -190,6 +190,7 @@ void loop() {
 
     while(true){
       //ReadVoltage();
+      
 
       RawValue = analogRead(SENSOR);
       if(RawValue < 0){RawValue = 0;}
